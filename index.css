@@ -1,0 +1,63 @@
+.clock{
+    /* background-color: red; */
+    height: 40vw;
+    width: 40vw;
+    background: url("clock1.png") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+}
+#hour , #min , #sec{
+    position: absolute;
+    background: black;             
+    border-radius: 8px;
+    transform-origin: bottom;
+
+
+}
+/* hour hand */
+#hour{
+    width: 1.5%;
+    height: 26%;                  
+    top: 25%;
+    left: 49.55%;
+    /* display: none; */
+}
+/* minute hand */
+#min{
+    width: 1%;
+    height: 31%;
+    top: 20.5%;
+    left: 49.78%;
+    /* display: none; */
+}
+/* second hand */
+#sec{
+    width: 0.4%;
+    height: 35%;
+    top: 15%;
+    left: 49.9%;
+    background: rgb(92, 91, 91);
+    /* display: none; */
+}
+/* mid circle */
+.circle{
+    background-color: rgb(236, 92, 92);
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    margin: auto;
+    /* float:50px; */
+    /* margin-top: 250px; */
+    position: absolute;
+}
+#c{
+    top: 47%;
+    display: flex;
+    left: 47.5%;
+    justify-content: center;
+    align-items: center;
+    /* top: 300px; */
+
+
+}
